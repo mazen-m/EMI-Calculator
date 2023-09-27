@@ -1,1 +1,3 @@
-# EMI-Calculator
+# EMI Calculator
+
+Android Mobile Application
