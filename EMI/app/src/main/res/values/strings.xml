@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- General Strings -->
+    <string name="app_name">EMI</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings for EMI Calculator App -->
+    <string name="label_home">EMI Calculator</string>
+    <string name="title_principal">Mortgage Principal Amount ($)</string>
+    <string name="title_rate">Interest Rate (%)</string>
+    <string name="title_term">Loan Term (Years)</string>
+    <string name="hint_principal">ie. 875000</string>
+    <string name="hint_rate">ie. 6.9</string>
+    <string name="hint_term">ie. 25</string>
+    <string name="button_calculate">Calculate</string>
+    <string name="button_clear">Go Back</string>
+
+    <!-- Placeholder Strings -->
+    <string name="pre_result_placeholder">Monthly Installment</string>
+    <string name="result_placeholder">$4000</string>
+
+</resources>

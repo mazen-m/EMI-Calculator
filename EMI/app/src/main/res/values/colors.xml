@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Background Color -->
+    <color name="background">#272727</color>
+
+    <!-- Text & Input Field Hint Colors -->
+    <color name="text">#FFFFFF</color>
+    <color name="hint">#7A7A7A</color>
+
+    <!-- Button Colors -->
+    <color name="green_button">#1F9541</color>
+    <color name="red_button">#DA5353</color>
+
+    <!-- Generic Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#37ED6B</color>
+
+</resources>

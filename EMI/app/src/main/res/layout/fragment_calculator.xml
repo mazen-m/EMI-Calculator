@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272727"
+    tools:context=".CalculatorFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/title_principal"
+            android:textColor="@color/text" />
+
+        <EditText
+            android:id="@+id/inputPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_principal"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/text"
+            android:textColorHint="@color/hint"
+            android:autofillHints="" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_rate"
+            android:textColor="@color/text" />
+
+        <EditText
+            android:id="@+id/inputRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_rate"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/text"
+            android:textColorHint="@color/hint"
+            android:autofillHints="" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_term"
+            android:textColor="@color/text"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/inputTerm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_term"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/text"
+            android:textColorHint="@color/hint"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/buttonCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="@color/green_button"
+            android:minHeight="70dp"
+            android:text="@string/button_calculate"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
